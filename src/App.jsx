@@ -1,9 +1,9 @@
-import Mprev from "./Mprev";
+import MdPrev from "./MdPrev";
 
 function App() {
   return (
     <div className="container">
-      <Mprev />
+      <MdPrev />
     </div>
   );
 }

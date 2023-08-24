@@ -1,0 +1,54 @@
+body {
+  background-color: antiquewhite;
+}
+
+.preview {
+  padding: 0;
+  border-top: 0px;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  height: 750px;
+  width: 700px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  resize: none;
+}
+
+.editor {
+  margin-top: 50px;
+  padding: 0;
+  height: 150px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+textarea {
+  padding: 0;
+  height: 150px;
+  width: 100%;
+  font-family: monospace;
+  background-color: darkgrey;
+  color: white;
+}
+
+.toolbar {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  background-color: burlywood;
+  margin: 0;
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
