@@ -39,10 +39,7 @@ const MdPrev = () => {
     setState(event.target.value);
   };
   return (
-    <div
-      id="container"
-      className="container-fluid d-flex justify-content-center align-items-center align-content-center flex-wrap text-center vh-100"
-    >
+    <div id="container" className="container-fluid">
       <div className="editor">
         <span className="toolbar">Editor</span>
         <textarea id="editor" onChange={handleChange}>
